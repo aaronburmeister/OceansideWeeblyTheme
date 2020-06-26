@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body class=' landing-page wsite-background wsite-theme-light'>
+<div id="wrap">
+	<div id="header-container">
+		<table id="header">
+			<tr>
+				<td id="logo">{logo}</td>
+				<td id="header-right">
+					<table>
+						<tr>
+							<td class="phone-number">{phone:text}</td>
+							<td class="social">{social}</td>
+							<td class="search">{search}</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<div id="topnav">
+			<div id="nav-right">
+				<div id="nav-inner">
+					{menu}
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="banner">
+			<div class="banner-clear">
+				<div id="bannerleft">
+					<div class="wsite-header"></div>
+				</div>
+				<div id="bannerright" class="landing-banner-outer">
+					<div class="landing-banner-mid">
+						<div class="landing-banner-inner">
+							<h2>{headline:text global="false"}</h2>
+							<p>{headline-paragraph:text global="false"}</p>
+							{action:button global="false"}
+						</div><!-- end banner inner -->
+					</div><!-- end banner mid -->
+				</div><!-- end banner-right -->
+			</div>
+		</div>
+		<div id="content">
+			{content}
+		</div>
+	</div>
+	<div id="footer">
+		{footer}
+	</div>
+</div>
+</body>
+</html>
