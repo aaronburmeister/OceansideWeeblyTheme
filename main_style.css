@@ -24,7 +24,8 @@ a:hover {
 --------------------------------------------------------------------------------*/
 
 body {
-	background: #2a2c2e url(blue-bg.jpg) center top;
+	/*background: #2a2c2e url(blue-bg.jpg) center top; */
+	background: #2a2c2e url(assets/blue-bg.jpg) center top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #7b7b7b;
@@ -336,7 +337,8 @@ blockquote {
 .tall-header-page .wsite-header {
 	width: 977px;
 	height: 316px;
-	background: url(banner-tall.jpg) no-repeat;
+	/*background: url(banner-tall.jpg) no-repeat;*/
+	background: url(assets/catdog_4.jpeg) no-repeat;
 }
 
 /* PAGE TYPE: banner-short
@@ -348,7 +350,8 @@ blockquote {
 .short-header-page .wsite-header {
 	width: 977px;
 	height: 121px;
-	background: url(banner-short.jpg) no-repeat;
+	/*background: url(banner-short.jpg) no-repeat;*/
+	background: url(assets/catdog_4.jpeg) no-repeat;
 }
 
 /* PAGE TYPE: splash
@@ -362,13 +365,15 @@ blockquote {
 	width: 527px;
 	height: 161px;
 	padding: 6px 4px 4px 6px;
-	background: url(banner-splash-bg.png) no-repeat;
+	/*background: url(banner-splash-bg.png) no-repeat;*/
+	background: url(assets/catdog_4.jpeg) no-repeat;
 }
 
 .splash-page .wsite-header {
 	width: 515px;
 	height: 149px;
-	background: url(banner-splash.jpg) no-repeat;
+	/*background: url(banner-splash.jpg) no-repeat;*/
+	background: url(assets/catdog_4.jpeg) no-repeat;
 }
 
 .splash-page #content-container {
